@@ -11,7 +11,7 @@ class Calculator
     if b == 0 then
       return 'cannot divide by zero'
     end
-    return a / b
+    return a.div b
   end
 
   def multiply(a, b)
