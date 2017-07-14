@@ -8,9 +8,6 @@ class Calculator
   end
 
   def divide(a, b)
-    if b == 0 then
-      return 'cannot divide by zero'
-    end
     return a.public_send('/', b)
   end
 
