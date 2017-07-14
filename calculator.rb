@@ -1,4 +1,4 @@
-class MyCalculator
+class Calculator
   def plus(a, b)
     puts 'add'
     return a.public_send('+', b)
@@ -10,6 +10,7 @@ class MyCalculator
   end
 
   def divide(a, b)
+    puts 'div'
     return a.public_send('/', b)
   end
 
