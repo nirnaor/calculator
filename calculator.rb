@@ -6,4 +6,8 @@ class Calculator
   def substract(a, b)
     return a - b
   end
+
+  def divide(a, b)
+    return a / b
+  end
 end
