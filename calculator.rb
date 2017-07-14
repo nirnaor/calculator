@@ -1,5 +1,5 @@
 class Calculator
-  def add(a, b)
+  def plus(a, b)
     return a + b
   end
 
