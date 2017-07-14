@@ -1,9 +1,11 @@
-class Calculator
+class MyCalculator
   def plus(a, b)
+    puts 'add'
     return a.public_send('+', b)
   end
 
   def substract(a, b)
+    puts 'sub'
     return a.public_send('-', b)
   end
 
